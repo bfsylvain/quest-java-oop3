@@ -33,7 +33,7 @@ public class Eagle extends Bird implements Fly{
     public void takeOff() {
         if(this.altitude == 0 && !this.flying) {
         this.flying = true;
-        System.out.println(this.getName() + " takes off in the sky");
+        System.out.printf("%s takes off in the sky.%n", this.getName());
         }
     }
 
