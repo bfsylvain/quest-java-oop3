@@ -39,7 +39,6 @@ public class Eagle extends Bird implements Fly{
 
     @Override
     public void ascend(int altitude) {
-
         this.altitude += altitude;
         System.out.printf("%s flies upward, altitude : %d.%n", this.getName(), this.altitude);
     }
